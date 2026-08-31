@@ -1,0 +1,12 @@
+category,archive_path,reason
+software,2026/Current/Software/UPDATE/pgadmin4-9.14-x64.exe,Executable installer excluded from public Git
+software,2026/Current/Software/NXAdapter_OS-Upgrade_v6.3.0.0.56912_20251212.10.zip,Software package excluded from public Git
+software,2026/Current/Software/UPDATE/SM_OS-Upgrade_v6.3.0.0.56952_20251212.13.zip,Software package excluded from public Git
+software,2026/Current/Software/UPDATE/SM-Full_SU_v6.2.2.0.44337_20250711.3.zip.enc,Encrypted update excluded from public Git
+software,2026/Current/Software/UPDATE/SM-Full_SU_v6.2.2.0.44337_20250711.3_Core.zip.enc,Encrypted update excluded from public Git
+software,2026/Current/Software/UPDATE/SM-Full_SU_v6.2.2.0.44337_20250711.3_Pkgs.zip.enc,Encrypted update excluded from public Git
+media,2026/Current/Spec/GT4 1_1-14-2026/NX Touchscreen_Video_1.30.26.mp4,Large video excluded from public Git
+private,2026/Report/PSH/PSH/20260128 - Field Report.pdf,Customer field report excluded pending privacy review
+private,2026/Test/PSH_NX_Headend_Expansion_Field_Report.docx,Customer field report excluded pending privacy review
+private,2026/Report/PSH/PSH/AZL_Services_Field_Report_PSH_020526.docx,Customer field report excluded pending privacy review
+private,2026/Report/PSH/PSH/AZL_Services_Field_Report_PSH_020526_FINAL.docx,Customer field report excluded pending privacy review
