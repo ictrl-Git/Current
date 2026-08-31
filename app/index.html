@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Current FSE Field KB</title><link rel="stylesheet" href="styles.css"></head>
+<body><main><header><div class="eyebrow">ICtrl Field Engineering</div><h1>Current<br>Field KB</h1><p>Offline-first reference index for Current Lighting, NX systems, transfer devices, commissioning, and field diagnostics.</p></header>
+<section class="controls" aria-label="Knowledge base filters"><input id="search" type="search" placeholder="Search NXAC, GT4, emergency, wiring…"><select id="system"><option value="">All systems</option></select><select id="priority"><option value="">All priorities</option><option>Critical</option><option>High</option><option>Medium</option><option>Low</option></select></section>
+<div id="summary" class="summary"></div><section id="grid" class="grid"></section><footer>Version 0.1 · Source files remain local/private until redistribution rights and privacy are confirmed.</footer></main>
+<script src="data.js"></script><script>
+const data=window.CURRENT_KB||[],search=document.querySelector("#search"),system=document.querySelector("#system"),priority=document.querySelector("#priority"),grid=document.querySelector("#grid"),summary=document.querySelector("#summary");
+[...new Set(data.map(x=>x.system))].sort().forEach(x=>system.add(new Option(x,x)));
+function render(){const q=search.value.trim().toLowerCase();const rows=data.filter(x=>(!system.value||x.system===system.value)&&(!priority.value||x.priority===priority.value)&&(!q||[x.id,x.manufacturer,x.system,x.subsystem,x.type,x.title,...x.tags].join(" ").toLowerCase().includes(q)));summary.textContent=rows.length+" of "+data.length+" references";grid.innerHTML=rows.length?rows.map(x=>`<article class="card"><div class="meta"><span>${x.id} · ${x.system}</span><strong class="priority-${x.priority}">${x.priority}</strong></div><h2>${x.title}</h2><div class="meta"><span>${x.manufacturer}</span><span>${x.type}</span></div><p class="tags">${x.tags.map(t=>`<span class="tag">${t}</span>`).join("")}</p></article>`).join(""):`<div class="empty">No references match these filters.</div>`;}
+[search,system,priority].forEach(el=>el.addEventListener("input",render));render();
+</script></body></html>
