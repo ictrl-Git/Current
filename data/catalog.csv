@@ -1,0 +1,12 @@
+id,manufacturer,system,subsystem,document_type,title,archive_path,repository_status,priority,tags
+CUR-001,Current,NX,NXSW2-GT4,comparison,NXSW2-GT4 Component Comparison,2026/Current/Spec/GT4 1_1-14-2026/3487_NXSW2-GT4_CompComp_11.3.25.pdf,index-only,high,"GT4,components,comparison"
+CUR-002,Current,NX,NXSW2-GT4,specification,NXSW2-GT4 Specification Sheet,2026/Current/Spec/GT4 1_1-14-2026/3487_NXSW2-GT4_Spec_sheet_10.30.25.pdf,index-only,high,"GT4,specification"
+CUR-003,Current,NX,NXSW2-GT4,sales,NXSW2-GT4 Sell Sheet,2026/Current/Spec/GT4 1_1-14-2026/3487_NXSW2_GT4_Sell_Sheet_10.30.25.pdf,index-only,medium,"GT4,overview"
+CUR-004,Current,NX,NXSW2-GT4,installation,NXSW2-GT4 Installation Sheet,2026/Current/Spec/GT4 1_1-14-2026/3487_NXSW2_GT4_Install_Sheet_Folded_10.30.25.pdf,index-only,critical,"GT4,installation,wiring"
+CUR-005,Current,Standalone,2105A,specification,2105A Rocker Slide Dimmer Specification,2026/Current/Spec/2105A_Rocker_Slide_Dimmer_spec.pdf,index-only,medium,"dimmer,rocker,slide"
+CUR-006,Current,NX,NXAC,release-notes,NXAC 5.4.0 Release Notes,2026/Current/Software/OneDrive_1_2-2-2026/NXAC 5.4.0/NXAC-UNV-001 SW Ver 5.4.0 Release Notes-08.22.2022.pdf,index-only,high,"NXAC,5.4.0,release notes,upgrade"
+CUR-007,Functional Devices,Emergency,Transfer Device,application,8T 16DIM Transfer Device,2026/Transfer devces/8T 16DIM.pdf,index-only,high,"emergency,transfer,8T,16DIM"
+CUR-008,Functional Devices,Emergency,ALCR-D20L-PW,application,ALCR-D20L-PW 8TN,2026/Transfer devces/ALCR-D20L-PW 8TN.pdf,index-only,high,"emergency,transfer,8TN"
+CUR-009,Functional Devices,Emergency,ALCR-D20L-PW,application,ALCR-D20L-PW QSN,2026/Transfer devces/ALCR-D20L-PW QSN.pdf,index-only,high,"emergency,transfer,QSN"
+CUR-010,Functional Devices,Emergency,ALCR-D20L-PW,specification,ALCR-D20L-PW Specification,2026/Transfer devces/ALCR-D20L-PW spec.pdf,index-only,high,"emergency,transfer,specification"
+CUR-011,Lutron,Related Reference,Lighting Controls,reference,Lutron 369913 English,2026/Lutron/369913_eng.pdf,index-only,low,"related,Lutron,369913"
