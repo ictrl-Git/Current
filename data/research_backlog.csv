@@ -1,0 +1,11 @@
+id,topic,system,priority,status
+RES-001,NX system architecture and commissioning flow,NX,critical,queued
+RES-002,NXSW2-GT4 installation and programming quick reference,NXSW2-GT4,critical,queued
+RES-003,NXSW2-GT4 LED and diagnostic behavior,NXSW2-GT4,critical,queued
+RES-004,NXAC version and upgrade compatibility matrix,NXAC,high,queued
+RES-005,NXAC backup restore and recovery procedure,NXAC,high,queued
+RES-006,NX network ports addressing and IT handoff,NX,high,queued
+RES-007,Emergency transfer-device application matrix,Emergency,high,queued
+RES-008,Current device factory-default procedures,Current,high,queued
+RES-009,Common NX field symptoms and diagnostic sequence,NX,critical,queued
+RES-010,Software and firmware secure-storage workflow,NX,medium,queued
